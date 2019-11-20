@@ -1,0 +1,30 @@
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-1);
+  box-shadow: var(--shadow-dark);
+
+  min-height: 50rem;
+}
+
+.header {
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  // remember second value stands for f
+  // if it's 0 => we don't want the element to shrink if there's not enough space
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  background-color: #fff;
+  flex: 1;
+}
